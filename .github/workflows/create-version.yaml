@@ -1,0 +1,12 @@
+name: Create version
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    steps:
+    - name: yarn install and test
+      run: echo 'Create new version only for masrer push'
