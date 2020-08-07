@@ -6,8 +6,8 @@ on:
       - master
 
 jobs:
-  runs-on: ubuntu-latest
   build:
+    runs-on: ubuntu-latest
     steps:
     - name: yarn install and test
       run: echo 'Create new version only for masrer push'
