@@ -18,6 +18,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: yarn install and test
-      run: echo 'Hi'
+      run: echo 'Create tests in all node environments'
       env:
         CI: true
