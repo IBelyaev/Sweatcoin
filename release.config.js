@@ -10,7 +10,7 @@ module.exports = {
         '@semantic-release/git'
     ],
     branches: [
-        'master'
+        'master' 
     ],
     repositoryUrl: 'https://github.com/IBelyaev/Sweatcoin'
 };
